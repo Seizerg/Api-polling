@@ -1,1 +1,1 @@
-web: node index.js
+web: java -jar -Dserver.port=$PORT build/libs/*.jar
